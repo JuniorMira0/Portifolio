@@ -31,21 +31,19 @@ body {
     padding: 50px 40px 40px 64px;
     
 }
-.box > .perfil {
+.perfil {
     border-radius: 50%;
     margin-top: 1px;
     max-width: 250px;
 }
-.box > .icons {
-    list-style: none;
-    /*retira as bolinhas das listas*/
-    padding-top: 30px;
-}
-.box > h1 {
+.box  h1 {
     padding-top: 50px;
     padding-bottom: 10px;
 }
 .icons {
+    list-style: none;
+    /*retira as bolinhas das listas*/
+    padding-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -55,24 +53,27 @@ body {
 }
 .card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
     margin: 100px;
 }
-.card > div {
-    margin: 0;
+.card  div {
+    margin: 8rem 0;
     background:#585959af;
     border-radius: 50px;
-}
-.card > div > h1 {
+    width: 500px;
+    height: 300px;
     text-align: center;
     padding: 10px;
 }
-.card > div > p {
+.card  div  h1 {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0 50px;
 }
-.card > div > ul > li{
+.card  ul  li {
+    list-style: none;
     text-align: center;
-    text-decoration: none;
+}
+.card li:hover {
+    color: gray;
 }
