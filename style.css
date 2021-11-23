@@ -7,8 +7,7 @@
     text-align: center;
 }
 body {
-    margin: 0px;
-    padding: 0;
+
     list-style: none;
     font-size: 1.2em;
     font-family: 'Source Code Pro', monospace;
@@ -20,7 +19,7 @@ body {
     align-items: center;
     justify-items: center;
     height: 1200px;
-
+    padding-top: 30px;
 }
 .box {
     background:#585959af ;
@@ -53,7 +52,7 @@ body {
 }
 .card {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr); 
     grid-gap: 50px;
     margin: 100px;
 }
@@ -76,4 +75,23 @@ body {
 }
 .card li:hover {
     color: gray;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+.menu ul li {
+    padding: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+    list-style: none;
+}
+.menu-hide {
+    display: none;
+}
+nav:hover .menu-hide {
+    display: block;
 }
