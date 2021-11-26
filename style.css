@@ -14,25 +14,27 @@ body {
     background: url(Fotos\ projeto/fundo1.jpg)no-repeat top center;
     background-attachment:fixed;
     /* backgound fixo */
-    background-size: cover;
+   /*  background-size: cover;
     display: grid;
     align-items: center;
     justify-items: center;
     height: 1200px;
-    padding-top: 30px;
+    padding-top: 30px; */
 }
 .box {
     background:#585959af ;
-    padding: 4rem;
+    padding:;
     box-shadow: 20px 2px 20px rgba(0, 0, 0, 0.329);
     border-radius: 50px;
+    width: 350px;
     text-align: center;
     padding: 50px 40px 40px 64px;
-    
+    height: 500px;
+    margin: 0 auto 0 auto;
 }
 .perfil {
     border-radius: 50%;
-    margin-top: 1px;
+    margin: 0 auto 0 auto;
     max-width: 250px;
 }
 .box  h1 {
