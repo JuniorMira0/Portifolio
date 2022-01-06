@@ -1,97 +1,98 @@
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 .title {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 body {
-
-    list-style: none;
-    font-size: 1.2em;
-    font-family: 'Source Code Pro', monospace;
-    background: url(Fotos\ projeto/fundo1.jpg)no-repeat top center;
-    background-attachment:fixed;
-    /* backgound fixo */
-    background-size: cover;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    height: 1200px;
-    padding-top: 30px;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: "Source Code Pro", monospace;
+  background: url(Fotos\ projeto/fundo1.jpg) no-repeat top center;
+  background-attachment: fixed;
+  /* backgound fixo */
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 1200px;
+  padding-top: 30px;
 }
 .box {
-    background:#585959af ;
-    box-shadow: 20px 2px 20px rgba(0, 0, 0, 0.329);
-    border-radius: 50px;
-    text-align: center;
-    height: 550px;
-    width: 490px;
-    margin: 0 auto 0 auto;    
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 20px 2px 20px rgba(0, 0, 0, 0.329);
+  border-radius: 50px;
+  text-align: center;
+  height: 550px;
+  width: 490px;
+  margin: 0 auto 0 auto;
 }
 .perfil {
-    border-radius: 50%;
-    margin-top: 50px;
-    max-width: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  max-width: 250px;
 }
-.box  h1 {
-    padding-top: 50px;
-    padding-bottom: 10px;
+.box h1 {
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 .icons {
-    list-style: none;
-    /*retira as bolinhas das listas*/
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  /*retira as bolinhas das listas*/
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 .icons li {
-    margin-right: 1rem;
-
+  margin-right: 1rem;
 }
 .card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); 
-    grid-gap: 50px;
-    margin: 100px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 50px;
+  margin: 100px;
 }
-.card  div {
-    margin: 8rem 0;
-    background:#585959af;
-    border-radius: 50px;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    padding: 10px;
+.card div {
+  margin: 8rem 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  padding: 10px;
 }
-.card  div  h1 {
-    text-align: center;
-    padding: 10px 0 50px;
+.card div h1 {
+  text-align: center;
+  padding: 10px 0 50px;
 }
-.card  ul  li {
-    list-style: none;
-    text-align: center;
+.card ul li {
+  list-style: none;
+  text-align: center;
 }
 .card li:hover {
-    color: gray;
+  color: gray;
 }
 .menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
 .menu ul li {
-    padding: 10px;
-    padding-right: 30px;
-    padding-top: 20px;
-    list-style: none;
+  padding: 10px;
+  padding-right: 30px;
+  padding-top: 20px;
+  list-style: none;
 }
 .menu-hide {
-    display: none;
+  display: none;
 }
 nav:hover .menu-hide {
-    display: block;
+  display: block;
 }
