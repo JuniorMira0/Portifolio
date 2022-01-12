@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TrybeWarts</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <img
+          alt="logo"
+          class="trybewarts-header-logo"
+          src="images/trybewarts-header-logo.svg"
+        />
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form class="trybewarts-login">
+          <input id="email" type="text" placeholder="Email" name="email" />
+          <input
+            id="password"
+            type="password"
+            placeholder="Senha"
+            name="password"
+          />
+          <button id="buttonEntrar">Entrar</button>
+        </form>
+      </div>
+    </header>
+
+    <main id="main">
+      <form id="evaluation-form">
+        <div class="content-name">
+          <div>
+            <input type="text" id="input-name" placeholder="Nome" />
+          </div>
+          <div>
+            <input type="text" id="input-lastname" placeholder="Sobrenome" />
+          </div>
+        </div>
+        <br />
+        <div class="content-email-house">
+          <div>
+            <input type="text" id="input-email" placeholder="Email" />
+          </div>
+          <div id="select">
+            <label id="label-casa" for="">Casa:</label>
+            <select name="casas" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <section>
+          <div id="ckeck-content">
+            <div>
+              <label for="" id="label-family">Qual sua família?</label>
+              <div class="radio">
+                <input type="radio" name="family" value="Frontend" />
+                <label for=""> Frontend </label>
+              </div>
+              <div class="radio">
+                <input type="radio" name="family" value="Backend" />
+                <label for="">Backend</label>
+              </div>
+              <div class="radio">
+                <input type="radio" name="family" value="FullStack" />
+                <label for="">FullStack</label>
+              </div>
+            </div>
+            <br />
+            <div>
+              <label for="" id="label-content"
+                >Qual conteúdo você está com mais vontade de aprender?</label
+              >
+              <div>
+                <input type="checkbox" value="HoFs" />
+                <label for="">HoFs</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Jest" />
+                <label for="">Jest</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Promises" />
+                <label for="">Promises</label>
+              </div>
+              <div>
+                <input type="checkbox" value="React" />
+                <label for="">React</label>
+              </div>
+              <div>
+                <input type="checkbox" value="SQL" />
+                <label for="">SQL</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Python" />
+                <label for="">Python</label>
+              </div>
+              <div>
+                <input type="checkbox" value="HoFs" />
+                <label for="">HoFs</label>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br />
+        <hr />
+        <br />
+        <section>
+          <div>
+            <label id="label-rate">Como você avalia a Trybewarts?</label>
+            <input type="radio" name="rate" value="1" />1
+            <input type="radio" name="rate" value="2" />2
+            <input type="radio" name="rate" value="3" />3
+            <input type="radio" name="rate" value="4" />4
+            <input type="radio" name="rate" value="5" />5
+            <input type="radio" name="rate" value="6" />6
+            <input type="radio" name="rate" value="7" />7
+            <input type="radio" name="rate" value="8" />8
+            <input type="radio" name="rate" value="9" />9
+            <input type="radio" name="rate" value="10" />10
+          </div>
+        </section>
+        <br />
+        <hr />
+        <br />
+        <section>
+          <label class="textarea">Deixe seu comentário:</label>
+          <br />
+          <textarea
+            id="textarea"
+            placeholder="500"
+            maxlength="500"
+            cols="74"
+            rows="5"
+          ></textarea>
+        </section>
+        <br />
+        <hr />
+        <br />
+        <section>
+          <input id="agreement" required type="checkbox" />
+          <label id="label-infos"
+            >Você concorda com o uso das informações acima?</label
+          >
+        </section>
+        <br />
+        <hr />
+        <br />
+        <section>
+          <button type="submit" id="submit-btn">Enviar</button>
+        </section>
+      </form>
+      <section>
+        <div class="trybewarts">
+          <img
+            src="images/trybewarts-colored.svg"
+            alt="Brasão TrybeWarts"
+            id="trybewarts-forms-logo"
+          />
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <h3>Direitos reservados à Trybewarts©</h3>
+      <p>Projeto realizado por Junior Mira & Bruno Marchi</p>
+      <p>Turma 19 - Tribo B</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
