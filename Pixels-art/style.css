@@ -1,0 +1,23 @@
+.color {
+  width: 50px;
+  height: 50px;
+  border: black 1px solid;
+}
+
+#color-palette {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: black 1px solid;
+  background-color: white;
+}
+
+#pixel-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}

@@ -1,0 +1,13 @@
+.backG {
+  background-color: gray;
+}
+
+.selected {
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
